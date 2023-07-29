@@ -11,12 +11,12 @@ mail_pass = password
 
 # Recievers
 
-mail_reciever = 'jomy1998@gmail.com'
+mail_reciever = input("Enter Mail id of the reciever >> ")
 
 # Content
 
-subject = 'Test Code'
-body = 'This is just a test'
+subject = input("Enter the subject of the mail >> ")
+body = input("Enter the body of the mail >> ")
 
 # content convert to EmailMessage Instance
 
